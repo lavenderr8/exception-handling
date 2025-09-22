@@ -3,9 +3,9 @@ try:
     num_2 = float(input("Введите второе число: "))
     division_result = num_1 / num_2
 except ValueError:
-    print("Ошибка: Введено не числовое значение!")
+    print("Ошибка! Введите число")
 except ZeroDivisionError:
-    print("Ошибка: Второе число равно нулю, деление на ноль!")
+    print("Ошибка: Деление на ноль!")
 else:
     print(f"Результат: {division_result}")
 finally:
